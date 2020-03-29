@@ -1,0 +1,218 @@
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.bt {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.bb {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.b--white{
+    border-color: #FFF;
+}
+
+.b--black {
+    border-color: #000;
+}
+
+.br-100 {
+    border-radius: 100%;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.avenir {
+    font-family: 'avenir next', avenir, sans-serif;
+}
+
+.baskerville {
+    font-family: baskerville, serif;
+}
+
+.i {
+    font-style: italic;
+}
+
+.fw1 {
+    font-weight: 100;
+}
+
+.fw4 {
+    font-weight: 400;
+}
+
+.h2 {
+    height: 2rem;
+}
+
+.tracked {
+    letter-spacing: .1em;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    transition: color .15s ease-in;
+}
+
+
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px solid currentColor;
+}
+
+.mw7 {
+    max-width: 70rem;
+}
+
+.w2 {
+    width: 2rem;
+}
+
+.black-80 {
+    color: rgba(0, 0, 0, .8);
+}
+
+.white {
+    color: #fff;
+}
+
+.bg-black-80 {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.hover-bg-all-grey:hover{
+    background-color: #a3a5a7;
+}
+
+.hover-bg-all-grey:focus{
+    background-color: #a3a5a7;
+}
+
+.hover-bg-first-red:hover {
+    background-color: #E31D42;
+}
+
+.hover-bg-first-red:focus {
+    background-color: #E31D42;
+}
+
+.hover-bg-second-red:hover {
+    background-color: #D3193B;
+}
+
+.hover-bg-second-red:focus {
+    background-color: #D3193B;
+}
+
+.hover-bg-third-red:hover {
+    background-color: #C21435;
+}
+
+.hover-bg-third-red:focus {
+    background-color: #C21435;
+}
+
+.hover-bg-fourth-red:hover {
+    background-color: #B2102E;
+}
+
+.hover-bg-fourth-red:focus {
+    background-color: #B2102E;
+}
+
+.hover-bg-fifth-red:hover {
+    background-color: #A10B27;
+}
+
+.hover-bg-fifth-red:focus {
+    background-color: #A10B27;
+}
+
+.hover-bg-sixth-red:hover {
+    background-color: #910721;
+}
+
+.hover-bg-sixth-red:focus {
+    background-color: #910721;
+}
+
+.hover-bg-seventh-red:hover {
+    background-color: #80021A;
+}
+
+.hover-bg-seventh-red:focus {
+    background-color: #80021A;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.pv4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mt2 {
+    margin-top: .5rem;
+}
+
+.mt4 {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+.f1 {
+    font-size: 3rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-animate, .bg-animate:hover, .bg-animate:focus {
+    transition: background-color .15s ease-in-out;
+}
+
+@media screen and (min-width: 60em) {
+    .ph4-l {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .f5-l {
+        font-size: 1.875rem;
+    }
+}

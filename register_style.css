@@ -1,0 +1,92 @@
+body{
+    color:white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.login-div{
+    background-image: linear-gradient(to bottom, rgba(211,211,211,0.4), rgba(128,128,128,0.9)); /*DODATI OPACITY*/
+    width: 550px;
+    height: 700px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    margin: 50px;
+    border-radius: 40px;
+}
+
+.login-title-div{
+    color: white;
+    border-bottom: 1px solid white; 
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.input-div{
+    margin-bottom: 0px;
+}
+
+p{
+    margin-left: 20px;    
+}
+
+.textfield{
+    font-size: large;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    border-bottom-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.radiobutton{
+    margin: 10px;
+}
+
+select {
+    width: 100px;
+    margin: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+
+textarea{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.input-div input::placeholder, textarea::placeholder{
+    color: white;
+}
+
+.textfield:hover{
+    width: 280px;
+}
+
+input[type=file]:hover{
+    width: 250px;
+}
+
+.button-div button{
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #ee4261, #ff375b);
+    border-color: #ff375b;
+    color: white;
+    font-style: italic;
+    transition: 0.5s ease-in-out;
+}
+
+.button-div button:hover{
+    width: 280px;
+    height: 60px;
+}
